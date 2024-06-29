@@ -1,0 +1,203 @@
+html,
+body {
+  height: 100%;
+}
+body {
+  background-color: #fbf4ee;
+  margin: 0;
+}
+
+.card {
+  margin: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+.bg-light {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  margin-bottom: 10px;
+}
+
+.coinsCard {
+  min-height: 300px !important;
+}
+
+.sumDepositAmount {
+  font-weight: bold;
+  color: #1565c0;
+}
+
+.amount {
+  font-size: 20px;
+}
+
+.amountDate {
+  min-width: 165px !important;
+}
+
+.form-control {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+
+.centerElem {
+  font-weight: bold;
+  right: 50%;
+  bottom: 50%;
+  transform: translate(50%, 50%);
+  position: absolute;
+}
+
+.table td,
+th {
+  text-align: center;
+}
+
+#snackbar {
+  visibility: hidden;
+  min-width: 250px;
+  margin-left: -125px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  border-radius: 2px;
+  padding: 16px;
+  position: fixed;
+  z-index: 1;
+  left: 50%;
+  bottom: 30px;
+  font-size: 17px;
+}
+
+#snackbar.show {
+  visibility: visible;
+  -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+@-webkit-keyframes fadein {
+  from {
+    bottom: 0;
+    opacity: 0;
+  }
+  to {
+    bottom: 30px;
+    opacity: 1;
+  }
+}
+@keyframes fadein {
+  from {
+    bottom: 0;
+    opacity: 0;
+  }
+  to {
+    bottom: 30px;
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fadeout {
+  from {
+    bottom: 30px;
+    opacity: 1;
+  }
+  to {
+    bottom: 0;
+    opacity: 0;
+  }
+}
+@keyframes fadeout {
+  from {
+    bottom: 30px;
+    opacity: 1;
+  }
+  to {
+    bottom: 0;
+    opacity: 0;
+  }
+}
+
+.green {
+  color: #4caf50;
+  font-weight: bold;
+}
+.red {
+  color: #e51c23;
+  font-weight: bold;
+}
+
+.mt-8 {
+  margin-top: 8px;
+}
+
+.mt-16 {
+  margin-top: 16px;
+}
+
+.mb-16 {
+  margin-bottom: 16px;
+}
+
+.pt-5 {
+  padding-top: 5px;
+}
+
+.pb-16 {
+  padding-bottom: 16px;
+}
+
+.pr-5 {
+  padding-right: 5px;
+}
+
+.tabContentCoinDetails {
+  padding: 20px 5px;
+  color: #1565c0;
+}
+
+.file {
+  font-size: 12px;
+  padding-left: 5px;
+}
+
+.github-corner:hover .octo-arm {
+  animation: octocat-wave 560ms ease-in-out;
+}
+
+@keyframes octocat-wave {
+  0%,
+  100% {
+    transform: rotate(0);
+  }
+
+  20%,
+  60% {
+    transform: rotate(-25deg);
+  }
+
+  40%,
+  80% {
+    transform: rotate(10deg);
+  }
+}
+
+@media (max-width: 500px) {
+  .github-corner:hover .octo-arm {
+    animation: none;
+  }
+
+  .github-corner .octo-arm {
+    animation: octocat-wave 560ms ease-in-out;
+  }
+}
+
+.disclaimer {
+  margin: 30px 0 16px;
+  padding-bottom: 16px;
+}
+
+.hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
